@@ -1,0 +1,6 @@
+{
+  "clientDir": "frontend/public",
+  "port": 8000,
+  "host": "localhost",
+  "rpcpath": "rpc-run"
+}

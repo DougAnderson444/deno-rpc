@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "@rollup/plugin-json": "https://cdn.skypack.dev/@rollup/plugin-json",
+        "config": "../config.json"
+    }
+}
