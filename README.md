@@ -17,6 +17,7 @@ We control the front end scripts, and for the front end I like to use Svelte. Fo
 - [ ] Migrate to /api/ to make vercel compatible
 - [ ] Import scripts to run (STR) from the net
 - [ ] Load data from disk to run through scripts
+- [ ] Run the untrusted code in a Deno subprocess with restricted net
 
 ## Quick Start
 
