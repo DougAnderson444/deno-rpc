@@ -14,9 +14,9 @@ We control the front end scripts, and for the front end I like to use Svelte. Fo
 
 ## TODO:
 
-[] - Migrate to /api/ to make vercel compatible
-[] - Import scripts to run (STR) from the net
-[] - Load data from disk to run through scripts
+- [ ] Migrate to /api/ to make vercel compatible
+- [ ] Import scripts to run (STR) from the net
+- [ ] Load data from disk to run through scripts
 
 ## Quick Start
 
@@ -34,7 +34,7 @@ Then go to `http://localhost:8000`.
 
 ## Snel Dev
 
-Snel for Deno is used to develop and build the front-end of this app. To see the Snel readme, go to `frontend/READEM.md` and see the instructions there. Note that the server port for Snel Dev server is 3000, and Deno server is 8000, so if you want to interact with Deno go to `http://localhost:8000`. 
+Snel for Deno is used to develop and build the front-end of this app. To see the Snel readme, go to `frontend/README.md` and see the instructions there. Note that the server port for Snel Dev server is 3000, and Deno server is 8000, so if you want to interact with Deno go to `http://localhost:8000`. 
 
 ## Deno Server 
 
