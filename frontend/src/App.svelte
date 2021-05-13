@@ -1,20 +1,17 @@
 <script>
-  import Home from "@/components/Home.svelte";
-  import { fade } from "svelte/transition";
   import { onMount } from "svelte";
 
-  export let methods;
+  export let methods; // prop passed in from main.js
 
   let answer = "Loading...";
 
   onMount(async () => {
-    const ans = await methods.getAnswer();
+    const ans = await methods.getAnswer(); // via RPC proxy and Deno server
     answer = ans.result;
-    console.log("ans: ", ans.result);
   });
 </script>
 
-<main transition:fade>
+<main>
   <h1>Hello Deno RPC!</h1>
   <p>Here is the value from Web Aseembly in Deno:</p>
   <div class="answer">{answer}</div>

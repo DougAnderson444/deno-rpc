@@ -51,5 +51,4 @@ class RemoteRpcProxy {
     }
 }
 
-// window.remote = new RemoteRpcProxy();
 export const remote = new RemoteRpcProxy();
