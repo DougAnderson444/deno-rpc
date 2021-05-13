@@ -11,7 +11,7 @@ const rpcPort = config.port
 const rpcHost = config.host
 const rpcpath = config.rpcpath
 
-const  url = `http://${rpcHost}:${rpcPort}/${rpcpath}`
+const url = `http://${rpcHost}:${rpcPort}/${rpcpath}`
 
 async function rpc (method, ...params) {
   const id = Math.random().toString(36).slice(-6);
